@@ -334,7 +334,7 @@ st.markdown("""
       &nbsp;• Moh Bayu Mustofa (10090224030)<br><br>
       Pada mata kuliah <b>Ekonomi Sumber Daya Alam dan Lingkungan</b>
       &nbsp;·&nbsp; Di bawah bimbingan <b>Yuhka Sundaya, S.E., M.Si.</b><br>
-      <span style="font-size:0.8rem;opacity:0.75;">Universitas Islam Bandung · Fakultas Ekonomi dan Bisnis · 2025</span>
+      <span style="font-size:0.8rem;opacity:0.75;">Universitas Islam Bandung · Fakultas Ekonomi dan Bisnis · 2026</span>
     </div>
   </div>
 </div>
@@ -782,7 +782,7 @@ with tab6:
       <b>Dosen Pembimbing:</b> Yuhka Sundaya, S.E., M.Si.<br>
       <span style="font-size:0.78rem;opacity:0.75;">
         Mata Kuliah Ekonomi Sumber Daya Alam dan Lingkungan &nbsp;·&nbsp;
-        Universitas Islam Bandung &nbsp;·&nbsp; Fakultas Ekonomi dan Bisnis &nbsp;·&nbsp; 2025
+        Universitas Islam Bandung &nbsp;·&nbsp; Fakultas Ekonomi dan Bisnis &nbsp;·&nbsp; 2026
       </span>
     </div>
   </div>
@@ -1430,7 +1430,7 @@ Integrasikan shadow price karbon ke laporan keberlanjutan untuk investor ESG.
   Arif Hamdani (10090224008) &nbsp;·&nbsp; Bambang Karta Wijaya (10090224020)
   &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
   Dosen Pembimbing: <b style="color:#cbd5e1;">Yuhka Sundaya, S.E., M.Si.</b>
-  &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2025
+  &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2026
 </div>
 """, unsafe_allow_html=True)
  
@@ -1444,6 +1444,6 @@ st.markdown(f"""
   Dikembangkan oleh: Arif Hamdani (10090224008) &nbsp;·&nbsp;
   Bambang Karta Wijaya (10090224020) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
   Di bawah bimbingan <b style="color:#64748b;">Yuhka Sundaya, S.E., M.Si.</b>
-  &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2025
+  &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2026
 </div>
 """, unsafe_allow_html=True)
