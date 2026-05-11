@@ -269,7 +269,7 @@ st.markdown("""
       <div class="dev-credit-box">
         <b>Dikembangkan oleh:</b><br>
         &nbsp;• Arif Hamdani (10090224008)<br>
-        &nbsp;• Bambang Karta Wijaya (10090224020)<br>
+        &nbsp;• Bambang Karta Wijaya (10090224025)<br>
         &nbsp;• Moh Bayu Mustofa (10090224030)<br><br>
         Pada mata kuliah <b>Ekonomi Sumber Daya Alam dan Lingkungan</b>
         &nbsp;·&nbsp; Di bawah bimbingan <b>Yuhka Sundaya, S.E., M.Si.</b><br>
@@ -669,7 +669,7 @@ with tab6:
     <p class="hero-subtitle">PT Mitrabara Adiperdana Tbk · Periode 2015–2024</p>
     <div class="dev-credit-box" style="margin-top:12px;">
       <b>Disusun oleh:</b> Arif Hamdani (10090224008) &nbsp;·&nbsp;
-      Bambang Karta Wijaya (10090224020) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
+      Bambang Karta Wijaya (10090224025) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
       <b>Dosen Pembimbing:</b> Yuhka Sundaya, S.E., M.Si.<br>
       <span style="font-size:0.78rem;opacity:0.75;">
         Mata Kuliah Ekonomi Sumber Daya Alam dan Lingkungan &nbsp;·&nbsp;
@@ -1518,7 +1518,7 @@ pajak karbon dengan horison jauh.
 <div style="background:linear-gradient(135deg,#1e293b,#334155);border-radius:16px;
             padding:20px 28px;margin-top:28px;text-align:center;color:#94a3b8;font-size:0.82rem;line-height:2;">
   <b style="color:#e2e8f0;font-size:0.95rem;">PBL 3 — Ekonomi Sumber Daya Alam dan Lingkungan</b><br>
-  Arif Hamdani (10090224008) &nbsp;·&nbsp; Bambang Karta Wijaya (10090224020) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
+  Arif Hamdani (10090224008) &nbsp;·&nbsp; Bambang Karta Wijaya (10090224025) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
   Dosen Pembimbing: <b style="color:#cbd5e1;">Yuhka Sundaya, S.E., M.Si.</b>
   &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2026
 </div>
@@ -1529,7 +1529,7 @@ st.markdown("""
 <div style="text-align:center;color:#94a3b8;font-size:0.82rem;padding:16px 0;line-height:1.9;">
   <b style="color:#64748b;">PBL 3 — Ekonomi Sumber Daya Alam dan Lingkungan</b><br>
   Dikembangkan oleh: Arif Hamdani (10090224008) &nbsp;·&nbsp;
-  Bambang Karta Wijaya (10090224020) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
+  Bambang Karta Wijaya (10090224025) &nbsp;·&nbsp; Moh Bayu Mustofa (10090224030)<br>
   Di bawah bimbingan <b style="color:#64748b;">Yuhka Sundaya, S.E., M.Si.</b>
   &nbsp;·&nbsp; Universitas Islam Bandung &nbsp;·&nbsp; Kelompok 6 &nbsp;·&nbsp; 2026
 </div>
