@@ -279,12 +279,25 @@ st.plotly_chart(
 
 st.subheader("Hubungan Produksi dan Harga")
 
-fig_scatter = px.scatter(
-    sim_data,
-    x="Production",
-    y="HBA",
-    size="MC",
-    color="Year"
+import plotly.graph_objects as go
+
+fig_scatter = go.Figure()
+
+for year in sim_data["Year"].unique():
+    df_year = sim_data[sim_data["Year"] == year]
+    fig_scatter.add_trace(go.Scatter(
+        x=df_year["Production"],
+        y=df_year["HBA"],
+        mode="markers",
+        name=str(year),
+        marker=dict(
+            size=df_year["MC"] / df_year["MC"].max() * 30 + 5
+        )
+    ))
+
+fig_scatter.update_layout(
+    xaxis_title="Production",
+    yaxis_title="HBA"
 )
 
 st.plotly_chart(
