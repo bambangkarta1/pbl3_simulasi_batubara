@@ -243,7 +243,7 @@ st.markdown("""
 st.markdown('<div class="section-title">📊 Bagian 1: Dashboard Data Historis (2015–2024)</div>', unsafe_allow_html=True)
 
 st.markdown("""<div class="theory-box">
-    📖 <strong>Latar Belakang (Bab I):</strong> PT Mitrabara Adiperdana Tbk (MBAP) adalah perusahaan
+    📖 <strong>Latar Belakang:</strong> PT Mitrabara Adiperdana Tbk (MBAP) adalah perusahaan
     pertambangan batubara yang terdaftar di Bursa Efek Indonesia. Batubara sebagai sumber daya
     <em>depletable</em> memiliki nilai yang dipengaruhi oleh preferensi pasar dan kebutuhan energi manusia —
     sesuai perspektif <em>The Sense of Beauty</em> (Santayana): nilai muncul karena kebutuhan dan preferensi.
@@ -329,7 +329,7 @@ with cr:
     st.plotly_chart(fig_prod, use_container_width=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Analisis HBA & Produksi (Bab IV — §4.1 Pergeseran Spektrum Cadangan):</strong>
+    💡 <strong>Analisis HBA & Produksi:</strong>
     HBA (Harga Batubara Acuan) mencapai puncaknya pada 2022 (Rp 4,09 jt/ton) didorong oleh krisis
     energi global pasca-pandemi dan konflik Rusia-Ukraina. Lonjakan harga ini menjadi sinyal pasar
     bahwa batubara MBAP bergerak dari status <em>resource</em> ke <em>reserve</em> yang lebih luas —
@@ -361,7 +361,7 @@ ax(fig_cogs)
 st.plotly_chart(fig_cogs, use_container_width=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Analisis COGS (Bab III — §3.1 Sumber Data):</strong>
+    💡 <strong>Analisis COGS:</strong>
     COGS merupakan proksi biaya total ekstraksi yang digunakan dalam perhitungan biaya marginal (MC).
     COGS tertinggi terjadi pada 2019 (Rp 2,38 T) dan tetap tinggi pada 2022–2024 meski volume produksi
     turun drastis sejak 2022. Hal ini mengindikasikan <strong>biaya tetap yang besar</strong> dalam industri
@@ -394,7 +394,7 @@ ax(fig_mc)
 st.plotly_chart(fig_mc, use_container_width=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Catatan MC Negatif — Keterbatasan Metodologi (Bab III — §3.2):</strong>
+   💡 <strong>Catatan MC Negatif — Keterbatasan Metodologi:</strong>
     Nilai MC negatif pada 2018, 2022, dan 2023 merupakan <em>artefak metodologi</em> dari pendekatan
     <em>incremental COGS</em> — bukan cerminan biaya aktual yang negatif secara ekonomi.
     MC dihitung sebagai ΔCOGS/ΔProduksi; ketika COGS dan volume keduanya turun dalam periode berbeda,
@@ -412,7 +412,7 @@ st.markdown('<hr class="divider-section">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">🏭 Bagian 2: Analisis Struktur Pasar</div>', unsafe_allow_html=True)
 
 st.markdown("""<div class="theory-box">
-    📖 <strong>Landasan Teoritis (Bab II — §2.2 Taksonomi & Struktur Pasar):</strong>
+   📖 <strong>Landasan Teoritis:</strong>
     Struktur pasar menentukan bagaimana harga dan kuantitas produksi ditetapkan, yang pada gilirannya
     memengaruhi kecepatan deplesi cadangan. Tiga struktur yang dianalisis:
     (1) <strong>Persaingan Sempurna</strong>: P = MC, efisien statik namun deplesi tercepat;
@@ -489,7 +489,7 @@ if margin > 0:
            f"tetapi menciptakan DWL = {m['dwl_mono']:.3f} — kerugian kesejahteraan masyarakat. "
            f"Oligopoli Cournot (n={n_firms}) berada di tengah: umur cadangan {life_oli:.1f} tahun, "
            f"DWL = {m['dwl_oli']:.3f}. Semakin banyak perusahaan (n→∞), oligopoli mendekati persaingan sempurna.")
-    st.markdown(f'<div class="insight-box">💡 <strong>Kesimpulan Struktur Pasar (Bab IV — §4.3):</strong> {msg}</div>',
+    st.markdown(f'<div class="insight-box">💡 <strong>Kesimpulan Struktur Pasar:</strong>{msg}</div>',
                 unsafe_allow_html=True)
 else:
     st.markdown('<div class="warn-box">⚠️ Harga di bawah MC — produksi tidak menguntungkan di semua struktur pasar.</div>',
@@ -561,7 +561,7 @@ ax(fig)
 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown(f"""<div class="insight-box">
-    💡 <strong>Interpretasi Kurva (Bab IV — §4.3 Identifikasi Distorsi Pasar):</strong>
+  💡 <strong>Interpretasi Kurva:</strong>
     Kurva D (biru) adalah fungsi permintaan pasar batubara. Garis MR (merah putus-putus) selalu
     di bawah D karena monopolis harus menurunkan harga untuk menjual lebih banyak.
     <strong>Efisiensi dinamis</strong> mensyaratkan bahwa harga bersih sumber daya harus tumbuh
@@ -595,7 +595,7 @@ fig_bar.update_yaxes(gridcolor="#edf2f7", linecolor="#dee2e6", tickfont=dict(siz
 st.plotly_chart(fig_bar, use_container_width=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Implikasi Kebijakan Struktur Pasar (Bab V — §5.2 Rekomendasi):</strong>
+    💡 <strong>Implikasi Kebijakan Struktur Pasar:</strong>
     Grafik batang ini mengkonfirmasi trade-off fundamental dalam ekonomi sumber daya: efisiensi alokasi
     vs. keberlanjutan. Pemerintah dapat memanfaatkan <em>conservation effect</em> monopoli/oligopoli melalui
     regulasi produksi (<em>quota</em>) atau royalti yang mendorong pembatasan output — tanpa harus
@@ -612,7 +612,7 @@ st.markdown('<hr class="divider-section">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">⏳ Bagian 3: Efisiensi Dinamis & Aturan Hotelling</div>', unsafe_allow_html=True)
 
 st.markdown("""<div class="theory-box">
-    📖 <strong>Aturan Hotelling (Bab II — §2.3 Model Alokasi Intertemporal):</strong>
+    📖 <strong>Aturan Hotelling:</strong>
     Harold Hotelling (1931) menurunkan kondisi optimalitas intertemporal untuk sumber daya tak terbarukan:
     <br><br>
     <strong>dP/dt = r · P</strong> &nbsp;→&nbsp; <strong>λ(t) = λ₀ · eʳᵗ</strong>
@@ -652,10 +652,14 @@ else:
 st.markdown('<div class="section-label">Hasil kalkulasi Hotelling</div>', unsafe_allow_html=True)
 m1, m2, m3, m4, m5 = st.columns(5)
 with m1:
-    st.markdown(f"""<div class="metric-card">
-        <span class="num num-blue">{t_star:.1f if t_star else '—'}</span>
+    t_star_display = f"{t_star:.1f}" if t_star is not None else "—"
+
+    st.markdown(f"""
+    <div class="metric-card">
+        <span class="num num-blue">{t_star_display}</span>
         <span class="lbl">T* umur cadangan (tahun)</span>
-    </div>""", unsafe_allow_html=True)
+    </div>
+    """, unsafe_allow_html=True)
 with m2:
     yr = int(2025 + t_star) if t_star else "—"
     st.markdown(f"""<div class="metric-card">
@@ -683,13 +687,13 @@ with m5:
 if t_star:
     base_t = (1 / R_BASE) * np.log((CP_BASE - MC_BASE) / MUC0_BASE)
     st.markdown(f"""<div class="insight-box">
-        💡 <strong>Interpretasi Hotelling (Bab IV — §4.2 Evaluasi Efisiensi Intertemporal):</strong>
+        💡 <strong>Interpretasi Hotelling:</strong>
         Dengan diskonto r = {r*100:.1f}%, cadangan optimal habis dalam <strong>{t_star:.1f} tahun</strong>
         (~{int(2025+t_star)}). {"Lebih cepat" if t_star < base_t else "Lebih lambat"} dari baseline r=5%
         ({base_t:.0f} tahun). MUC tumbuh eksponensial dari Rp {muc0/1000:.0f} ribu/ton
         menjadi Rp {muc50/1e6:.1f} jt/ton pada t=50.
         {"⚡ Diskonto tinggi mencerminkan preferensi kuat pada konsumsi saat ini — generasi mendatang dinilai lebih rendah. Ini mendorong eksploitasi lebih cepat dan memperpendek T*." if r > R_BASE else "🌱 Diskonto rendah mencerminkan penghargaan lebih tinggi terhadap generasi mendatang — insentif konservasi lebih kuat, T* lebih panjang."}
-        <br><br><em>Catatan kritis (Bab IV — §4.2):</em> Jalur ekstraksi riil MBAP tidak sesederhana model Hotelling
+        <br><br><em>Catatan kritis:</em>Jalur ekstraksi riil MBAP tidak sesederhana model Hotelling
         karena adanya faktor substitusi energi terbarukan, perubahan teknologi penambangan, regulasi pemerintah,
         dan ketidakpastian harga pasar global yang tidak terinternalisasi dalam model teoretis murni.
     </div>""", unsafe_allow_html=True)
@@ -720,7 +724,7 @@ if t_star:
     st.plotly_chart(fig_hot, use_container_width=True)
 
     st.markdown(f"""<div class="insight-box">
-        💡 <strong>Analisis Jalur MUC (Bab II — §2.3 & Bab IV — §4.2):</strong>
+       💡 <strong>Analisis Jalur MUC:</strong>
         Kurva ungu menunjukkan jalur pertumbuhan MUC (λ) yang harus terjadi agar ekstraksi MBAP
         efisien secara intertemporal. Ketika λ mencapai garis merah (Choke Price − MC = Rp {gap/1e6:.1f} jt/ton),
         tidak ada lagi keuntungan dari ekstraksi — ini adalah <strong>titik T* = {t_star:.1f} tahun</strong>.
@@ -768,7 +772,7 @@ with cr:
     </div>""", unsafe_allow_html=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Sensitivitas & Implikasi Kebijakan (Bab V — §5.2):</strong>
+   💡 <strong>Sensitivitas & Implikasi Kebijakan:</strong>
     Grafik sensitivitas menunjukkan betapa pentingnya pilihan tingkat diskonto dalam menentukan nasib
     cadangan sumber daya. Perbedaan 1% saja pada r dapat menggeser T* puluhan tahun.
     <br><br>Implikasi kebijakan: pemerintah dapat menggunakan <strong>tingkat royalti</strong> sebagai
@@ -785,7 +789,7 @@ st.markdown('<hr class="divider-section">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">🌍 Bagian 4: Fenomena Green Paradox</div>', unsafe_allow_html=True)
 
 st.markdown("""<div class="theory-box">
-    📖 <strong>Teori Green Paradox (Bab II — §2.4 Eksternalitas & Green Paradox):</strong>
+    📖 <strong>Teori Green Paradox:</strong>
     Hans-Werner Sinn (2008) mengemukakan bahwa kebijakan lingkungan yang diumumkan jauh hari sebelum
     berlaku justru dapat <em>mempercepat</em> emisi dalam jangka pendek — berlawanan dengan tujuannya.
     <br><br>Mekanisme: Produsen batubara yang rasional mengetahui bahwa nilai aset mereka akan turun
@@ -859,23 +863,23 @@ with p4:
 
 if delta_em > 5:
     st.markdown(f"""<div class="danger-box">
-        ⚠️ <strong>Green Paradox Terdeteksi! (Bab IV — §4.3)</strong>
+        ⚠️ <strong>Green Paradox Terdeteksi!</strong>
         Pajak Rp {tax_k}rb/ton yang berlaku {lag} tahun ke depan memicu akselerasi produksi
         {int(accel*100)}% selama periode pra-pajak. Emisi kumulatif naik
         <strong>{delta_em:+.1f} Mt CO₂ ({pct_change:+.1f}%)</strong> —
         berlawanan dengan tujuan kebijakan lingkungan. Ini adalah bukti empiris teori Sinn (2008).
-        <strong>Solusi (Bab V):</strong> pajak berlaku segera dengan kenaikan bertahap
+        <strong>Solusi:</strong>pajak berlaku segera dengan kenaikan bertahap
         (<em>escalating carbon price</em>), bukan diumumkan jauh hari tanpa implementasi segera.
     </div>""", unsafe_allow_html=True)
 elif delta_em < -5:
     st.markdown(f"""<div class="success-box">
-        ✅ <strong>Kebijakan Efektif (Bab IV — §4.3)</strong> — Emisi turun {abs(delta_em):.1f} Mt CO₂ ({pct_change:.1f}%).
+       ✅ <strong>Kebijakan Efektif</strong> — Emisi turun {abs(delta_em):.1f} Mt CO₂ ({pct_change:.1f}%).
         Pajak cukup besar dan/atau lag implementasi cukup pendek sehingga tidak memicu paradox.
         Ini adalah desain kebijakan yang tepat sesuai rekomendasi literatur ekonomi lingkungan.
     </div>""", unsafe_allow_html=True)
 else:
     st.markdown(f"""<div class="warn-box">
-        ⚡ <strong>Dampak Marginal (Bab IV — §4.3)</strong> — Paradox kecil. Pertimbangkan menaikkan pajak atau
+        ⚡ <strong>Dampak Marginal</strong> — Paradox kecil. Pertimbangkan menaikkan pajak atau
         memperpendek lag implementasi untuk efek reduksi emisi yang lebih signifikan.
     </div>""", unsafe_allow_html=True)
 
@@ -899,7 +903,7 @@ ax(fig_gp)
 st.plotly_chart(fig_gp, use_container_width=True)
 
 st.markdown(f"""<div class="insight-box">
-    💡 <strong>Analisis Produksi (Bab IV — §4.3 Race to Extract):</strong>
+    💡 <strong>Analisis Produksi:</strong>
     Batang merah (periode pra-pajak) menunjukkan peningkatan produksi {int(accel*100)}% di atas baseline
     selama {lag} tahun sebelum pajak berlaku. Ini adalah manifestasi "<em>race to extract</em>" —
     MBAP dan produsen lain akan berupaya memaksimalkan ekstraksi saat biaya masih rendah.
@@ -927,7 +931,7 @@ ax(fig_em)
 st.plotly_chart(fig_em, use_container_width=True)
 
 st.markdown(f"""<div class="insight-box">
-    💡 <strong>Interpretasi Emisi Kumulatif (Bab IV — §4.3 & Bab V — §5.1 Kesimpulan):</strong>
+    💡 <strong>Interpretasi Emisi Kumulatif:</strong>
     Area merah antara dua kurva adalah <em>excess emissions</em> yang terjadi akibat Green Paradox —
     emisi tambahan sebesar {delta_em:+.1f} Mt CO₂ ({pct_change:+.1f}%) dibandingkan baseline.
     Secara kumulatif, ini bisa berarti kebijakan lingkungan justru mempercepat perubahan iklim
@@ -935,11 +939,11 @@ st.markdown(f"""<div class="insight-box">
     <br><br>Ini merupakan kegagalan pasar ganda: eksternalitas negatif emisi (biaya sosial tidak
     terinternalisasi) <em>dan</em> respons spekulatif terhadap kebijakan yang tidak efektif.
     Keduanya membutuhkan intervensi pemerintah yang dirancang cermat untuk menghindari
-    memperparah distorsi yang ada (sesuai analisis Bab IV — §4.3).
+    memperparah distorsi yang ada .
 </div>""", unsafe_allow_html=True)
 
 st.markdown("""<div class="insight-box">
-    💡 <strong>Mekanisme Green Paradox & Tiga Solusi Berbasis Bukti (Bab V — §5.2 Rekomendasi):</strong>
+    💡 <strong>Mekanisme Green Paradox & Tiga Solusi Berbasis Bukti:</strong>
     Ketika pemerintah mengumumkan pajak karbon yang baru berlaku beberapa tahun ke depan,
     produsen rasional mempercepat ekstraksi sekarang — nilai sekarang cadangan turun setelah
     pajak berlaku. Hasilnya: emisi jangka pendek justru <em>meningkat</em>, berlawanan dengan
