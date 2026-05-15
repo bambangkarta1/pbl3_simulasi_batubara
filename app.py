@@ -228,11 +228,23 @@ def calc_market(hba_m, mc_m, n):
 # ─── HEADER ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="page-header">
-  <h1>⛏️ Analisis Intertemporal Batubara — PT Mitrabara Adiperdana Tbk (MBAP)</h1>
-  <p>Analisis Dinamika Alokasi Sumber Daya <em>Depletable</em> · Dampak harga, diskonto, dan marginal user cost terhadap produksi, stok, dan umur cadangan ·
-     Tiga struktur pasar · Green Paradox &nbsp;·&nbsp;
-     Arif Hamdani · Bambang Karta Wijaya · Moh Bayu Mustofa &nbsp;·&nbsp;
-     Dosen: Yuhka Sundaya, S.E., M.Si. · Universitas Islam Bandung 2026</p>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <img src="data:image/jpeg;base64,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" style="height:80px;width:80px;object-fit:contain;border-radius:8px;background:white;padding:4px;" />
+    <div style="flex:1;">
+      <div style="font-size:0.72rem;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Universitas Islam Bandung · Fakultas Ekonomi &amp; Bisnis</div>
+      <h1 style="font-size:1.1rem !important;font-weight:700 !important;color:white !important;margin:0 0 4px 0 !important;line-height:1.3 !important;">⛏️ Analisis Intertemporal Batubara</h1>
+      <div style="font-size:0.80rem;color:rgba(255,255,255,0.80);margin-bottom:6px;">PT Mitrabara Adiperdana Tbk (MBAP) — Dinamika Alokasi Sumber Daya <em>Depletable</em></div>
+      <div style="display:flex;flex-wrap:wrap;gap:16px;font-size:0.75rem;color:rgba(255,255,255,0.65);border-top:1px solid rgba(255,255,255,0.15);padding-top:8px;margin-top:2px;">
+        <span>📚 <strong style="color:rgba(255,255,255,0.85);">Mata Kuliah:</strong> Ekonomi Sumber Daya Alam &amp; Lingkungan</span>
+        <span>👨‍🏫 <strong style="color:rgba(255,255,255,0.85);">Dosen Pengampu:</strong> Yuhka Sundaya, S.E., M.Si.</span>
+        <span>👥 <strong style="color:rgba(255,255,255,0.85);">Kelompok:</strong> 
+Arif Hamdani (10090224008) · 
+Bambang Karta Wijaya (10090224025) · 
+Moh Bayu Mustofa (10090224030)
+</span>
+      </div>
+    </div>
+  </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -958,9 +970,13 @@ st.markdown("""<div class="insight-box">
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.divider()
-st.markdown("""<div style="font-size:0.78rem;color:#adb5bd;text-align:center;padding:8px 0">
-    PBL 3 — Ekonomi Sumber Daya Alam &amp; Lingkungan &nbsp;·&nbsp;
-    Topik: Analisis Intertemporal dan Dinamika Alokasi Sumber Daya <em>Depletable</em> &nbsp;·&nbsp;
-    Arif Hamdani · Bambang Karta Wijaya · Moh Bayu Mustofa &nbsp;·&nbsp;
-    Dosen: Yuhka Sundaya, S.E., M.Si. &nbsp;·&nbsp; Universitas Islam Bandung · 2026
+st.markdown("""<div style="font-size:0.78rem;color:#adb5bd;text-align:center;padding:8px 0;line-height:2">
+    <strong>PBL 3</strong> — Ekonomi Sumber Daya Alam &amp; Lingkungan &nbsp;·&nbsp;
+    Analisis Intertemporal dan Dinamika Alokasi Sumber Daya <em>Depletable</em><br>
+    👥 👥 <strong>Kelompok:</strong> 
+Arif Hamdani (10090224008) · 
+Bambang Karta Wijaya (10090224025) · 
+Moh Bayu Mustofa (10090224030)
+    👨‍🏫 <strong>Dosen Pengampu:</strong> Yuhka Sundaya, S.E., M.Si.<br>
+    Universitas Islam Bandung · Fakultas Ekonomi &amp; Bisnis · 2026
 </div>""", unsafe_allow_html=True)
